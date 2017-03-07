@@ -9,43 +9,47 @@
 </head>
 
 
-<header>
-  <h1 class="titleHead">
+<!-- Title bar of page, including button pannel-->
+<header style="margin:0 auto;text-align:center">
+  <h1 style="text-align:center;letter-spacing:10px;font-family:'verdana';color: lightgrey;width: 100%;width: 100%;">
     <img src="./WingLeft.png" alt="" style="height:50px; width:50px">
-    Daedalus Games
+    <a href="./index.html" style="text-decoration:none;color:inherit;font-family:'verdana';">Daedalus Games</a>
     <img src="./WingRight.png" alt="" style="height:50px; width:50px">
   </h1>
-</header>
-<body>
+  <!-- Button Panel -->
   <p>
-    <button type="button" name="button">
-      Page 2
+    <button type="button" name="button" onclick="location.href='page2.html'">
+      The Team
     </button>
     &emsp;
     <button type="button" name="button">
-      Page 3
+      Other Stuff
+    </button>
+    &emsp;
+    <button type="button" name="button">
+      Another Button
     </button>
   </p>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </p>
-  <li>
-    something
-  </li>
-</body>
-
-<footer>
-  <a href="./page2.html">Page 2</a>
-</footer>
-
-<div class="footer">
-  <a href="Twitter Link">
-    Twitter
-  </a>
+  <!-- Footer of page -->
+  <div class="footer">
+  <a href="Twitter Link" style="color:blue;">Twitter</a>
   &emsp;
-  <a href="Blog Link">
-    Blog
-  </a>
-</div>
+  <a href="Blog Link" style="color:blue;">Blog</a>
+  </div>
+</header>
+
+<!-- Content of Page -->
+<body>
+  <p>
+    <div style="position:absolute;left:30%;right:30%;">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </p>
+  <p>
+    <div style="position:absolute;left:30%;right:30%;top:30%">
+      Willkommen im unsere Webseite. Wir sind zwei Freunde, die Videospiele machen wollen.
+    </div>
+  </p>
+</body>
 
 </html>

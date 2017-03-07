@@ -8,6 +8,10 @@ img {
   vertical-align: text-top;
 }
 
+.link2 {
+  display: inline;
+}
+
 p {
   text-align: center;
   color: inherit;
@@ -15,13 +19,19 @@ p {
 }
 
 a {
-  color: inherit;
   font-family: sans-serif;
   text-decoration: underline;
 }
 
-button {
+object {
+  align-items: center;
+}
 
+.titleHead {
+  color: lightgrey;
+  text-align: center;
+  letter-spacing: 10px;
+  font-family: "verdana"
 }
 
 .footer {
