@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+  letter-spacing: 10px;
+  font-family: "verdana"
+}
+
+img {
+  vertical-align: text-top;
+}
+
+p {
+  text-align: center;
+  color: inherit;
+  font-family: sans-serif;
+}
+
+a {
+  color: inherit;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+button {
+
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background: linear-gradient(darkgrey, grey);
+  text-align: center;
+  color: blue;
+}
+
+html{
+  color: lightgrey;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(midnightblue 0%, black 20%);
+}
